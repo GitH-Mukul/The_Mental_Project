@@ -1,0 +1,146 @@
+<html>
+
+<head>
+    <title>
+        Services - Mind Matters
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #5C6BC0;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem;
+        }
+
+
+        .containers {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .service-block {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .service-block h3 {
+            color: #902827;
+            margin-top: 0;
+        }
+
+        .service-block:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .service-block:focus-within {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            outline: 2px solid #5C6BC0;
+        }
+
+        @media (hover: hover) {
+            .service-block:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+
+
+        <div class="navigation">
+            <nav>
+                <img src="logo.jpg" alt="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> <br>
+    <br>
+    <br><br><br><br><br><br>
+    <main class="containers">
+        <h2>Our Services</h2>
+        <div class="service-grid">
+            <div class="service-block">
+                <a href="library.html" style="text-decoration: none;">
+                <h3>Library</h3>
+                <p style="color: black;">An extensive collection of articles related to Mental Health.</p></a>
+            </div>
+            <div class="service-block">
+                <h3>Group Therapy</h3>
+                <p>Supportive group sessions led by professionals, focusing on shared experiences and mutual support.
+                </p>
+            </div>
+            <div class="service-block">
+                <h3>Cognitive Behavioral Therapy (CBT)</h3>
+                <p>Evidence-based treatment to help identify and change negative thought patterns and behaviors.</p>
+            </div>
+            <div class="service-block">
+                <h3>Mindfulness and Meditation</h3>
+                <p>Guided sessions to promote relaxation, stress reduction, and improved mental well-being.</p>
+            </div>
+            <div class="service-block">
+                <h3>Crisis Intervention</h3>
+                <p>24/7 support for individuals experiencing acute mental health crises, with immediate assistance and
+                    referrals.</p>
+            </div>
+            <div class="service-block">
+                <h3>Family Counseling</h3>
+                <p>Sessions to improve family dynamics, communication, and support for family members affected by mental
+                    health issues.</p>
+            </div>
+            <div class="service-block">
+                <h3>Substance Abuse Treatment</h3>
+                <p>Specialized programs for individuals struggling with substance abuse and co-occurring mental health
+                    disorders.</p>
+            </div>
+            <div class="service-block">
+                <h3>Teletherapy</h3>
+                <p>Online therapy sessions providing convenient access to mental health support from the comfort of your
+                    home.</p>
+            </div>
+            <div class="service-block">
+                <a href="talk_with_psychologist.html" style="text-decoration: none;">
+                    <h3>Talk to Psychologist</h3>
+                    <p style="color: black;"> one-on-one consultations with licensed psychologists for in-depth mental health
+                        assessments and personalized treatment plans.</p></a>
+            </div>
+            <div class="service-block">
+                <h3>Talk to Other Patients</h3>
+                <p>Connect with peers in moderated support groups to share experiences, coping strategies, and mutual
+                    encouragement in a safe, understanding environment.</p>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

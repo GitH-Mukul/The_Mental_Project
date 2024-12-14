@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login / Sign-Up Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: url('handhold.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+    .form-container {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    input[type="text"], input[type="password"], input[type="email"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+    .form-switch {
+      text-align: center;
+      margin-top: 10px;
+    }
+    .form-switch a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+    .form-switch a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div id="header">
+
+
+    <div class="navigation">
+        <nav>
+            <img src="logo.jpg" alt="logo">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<br>
+<br>
+<br><br><br><br><br><br><br><br><br><br>
+
+<!-- Login Form -->
+<div class="form-container">
+  <h2>Login</h2>
+  <form action="/login" method="post">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+  
+  <div class="form-switch">
+    <p>Don't have an account? <a href="#signup-form">Sign up</a></p>
+  </div>
+</div>
+
+<!-- Sign-Up Form -->
+<div class="form-container" id="signup-form" style="display:none;">
+  <h2>Sign Up</h2>
+  <form action="/signup" method="post">
+    <input type="text" name="username" placeholder="Username" required>
+    <input type="email" name="email" placeholder="Email" required>
+    <input type="password" name="password" placeholder="Password" required>
+    <button type="submit">Sign Up</button>
+  </form>
+  
+  <div class="form-switch">
+    <p>Already have an account? <a href="#login-form">Login</a></p>
+  </div>
+</div>
+
+</body>
+</html>

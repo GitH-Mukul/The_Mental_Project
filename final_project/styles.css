@@ -1,0 +1,279 @@
+#container{
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#header{
+    background-size: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#home-main img{
+    height: max-content;
+    width: 1500px;
+}
+
+nav img{
+    float: left;
+    height: 100px;
+    width: 250px;
+    padding-left:30px ;
+    padding-top: 0px;
+}
+
+
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:  #902827;
+    padding: 25px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding-top: 35px;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    padding-right: 40px;
+    padding-left: 20px;
+
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 30px;
+    color: white;
+
+    
+}
+
+
+.space{
+    width: 450px;
+}
+
+#prob2{
+
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 1500px;
+
+    padding: 20px;
+}
+
+#prob2img img{
+
+    border-radius: 100px;
+}
+
+#prob2content{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50px;
+    color: white;
+}
+
+
+#prob1content:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#prob21content:focus-within{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    outline: 2px solid #5C6BC0;
+}
+
+@media (hover: hover) {
+    #prob1content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+}
+
+
+
+#prob3content:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#prob3content:focus-within{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    outline: 2px solid #5C6BC0;
+}
+
+@media (hover: hover) {
+    #prob3content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+}
+
+
+
+#prob2content:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+#prob2content:focus-within{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    outline: 2px solid #5C6BC0;
+}
+
+@media (hover: hover) {
+    #prob2content:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+}
+
+#prob2content p{
+    padding-left: 60px;
+    font-size: 25px;
+    line-height: 40px;
+    padding-right: 60px;
+    text-align: justify;
+}
+
+#prob1content p{
+    padding-left: 60px;
+    font-size: 25px;
+    line-height: 40px;
+    padding-right: 60px;
+    text-align: justify;
+
+}
+
+#prob3content p{
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: justify;
+
+}
+
+#prob3{
+
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 1500px;
+
+    padding: 20px;
+}
+
+#prob3img img{
+    border-radius: 100px;
+}
+
+#prob3content{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50px;
+    color: white;
+}
+
+
+#prob1{
+
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 1500px;
+  
+    padding: 20px;
+}
+
+#prob1img img{
+    border-radius: 100px;
+}
+
+#prob1content{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: brown;
+    border-radius: 50px;
+    color: white;
+}
+
+#prob1content h2{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+
+
+#prob2content h2{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+
+
+#prob3content h2{
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+#para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#para p{
+    font-size: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 40px;
+}
+
+#para h1{
+    padding-left: 150px;
+    padding-right: 150px;
+    line-height: 40px;
+    text-align: center;
+
+}
+
+#para ul{
+    list-style: none;
+}

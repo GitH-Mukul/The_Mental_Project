@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+ 
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="styles.css ">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .feedback-form {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .feedback-form h2 {
+            margin-top: 0;
+            font-size: 1.5rem;
+            color: #333333;
+            text-align: center;
+        }
+
+        .feedback-form label {
+            display: block;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #555555;
+        }
+
+        .feedback-form input,
+        .feedback-form textarea,
+        .feedback-form select,
+        .feedback-form button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            font-size: 0.9rem;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        .feedback-form textarea {
+            resize: none;
+            height: 100px;
+        }
+
+        .feedback-form button {
+            background-color: #5a67d8;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        .feedback-form button:hover {
+            background-color: #434aa8;
+        }
+
+        .feedback-form .success-message {
+            display: none;
+            margin-top: 10px;
+            color: #28a745;
+        }
+    </style>
+</head>
+<body> <div id="header">
+
+
+        <div class="navigation">
+            <nav>
+                <img src="logo.jpg" alt="logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+
+                    <li><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <form class="feedback-form" action="#" method="post">
+        <h2>Feedback Form</h2>
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+        <label for="rating">How would you rate your experience?</label>
+        <select id="rating" name="rating" required>
+            <option value="">Choose an option</option>
+            <option value="excellent">Excellent</option>
+            <option value="good">Good</option>
+            <option value="average">Average</option>
+            <option value="poor">Poor</option>
+        </select>
+
+        <label for="comments">Your Feedback</label>
+        <textarea id="comments" name="comments" placeholder="Write your feedback here..."></textarea>
+
+        <button type="submit">Submit Feedback</button>
+    </form>
+</body>
+</html>
+
